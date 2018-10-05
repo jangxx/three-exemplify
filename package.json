@@ -1,0 +1,24 @@
+{
+  "name": "three-exemplify",
+  "version": "1.0.0",
+  "description": "A browserify transform which allows for easy inclusion of three.js examples",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangxx/three-exemplify.git"
+  },
+  "keywords": [
+    "browserify-transform",
+    "browserify",
+    "threejs"
+  ],
+  "author": "jangxx <jangxx@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jangxx/three-exemplify/issues"
+  },
+  "homepage": "https://github.com/jangxx/three-exemplify#readme",
+  "dependencies": {
+    "through2": "^2.0.3"
+  }
+}
