@@ -1,7 +1,8 @@
 const through = require('through2');
+const path = require('path');
 
 module.exports = function(file) {
-	if (file.indexOf("/three/examples/") == -1) {
+	if (file.indexOf(`${path.sep}three${path.sep}examples${path.sep}`) == -1) {
 		return through();
 	} else {
 		let first_chunk = true;
